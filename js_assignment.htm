@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+function isEmpty(s)
+{
+	var l=s, i, flag=0;
+	for(i=0;i<l.length;i++){
+    		if((l[i] == "")||(l[i]==" ")||(l[i]==null))
+    		{
+    			flag++;
+    		}	
+	}
+	if(flag != 0)
+	{
+		alert("true");	
+	}
+	else
+		alert("false");
+}
+function check()
+{
+	var s=document.getElementById("name").value;
+    	isEmpty(s).prototype;
+    
+}
+
+
+</script>
+<input type="text" id="name">
+<button id="chk" onclick='check()'>CHECK</botton>
+<span id="demo"></span>
+<script>
+</script>
+</body>
+</html>
+
